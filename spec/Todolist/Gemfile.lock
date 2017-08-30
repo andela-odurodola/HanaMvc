@@ -1,0 +1,21 @@
+PATH
+  remote: ../hanamvc
+  specs:
+    hanamvc (0.1.0)
+      erubis
+      rack
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    erubis (2.7.0)
+    rack (2.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hanamvc!
+
+BUNDLED WITH
+   1.13.7
