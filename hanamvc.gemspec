@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'hanamvc/version'
+require_relative 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "hanamvc"
@@ -35,4 +35,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
 
   spec.add_runtime_dependency "rack"
+  spec.add_runtime_dependency "erubis"
+
 end
